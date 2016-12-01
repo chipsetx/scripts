@@ -1,0 +1,26 @@
+sudo apt-get update
+sudo apt-get install virtualbox
+sudo apt-get install terminator
+sudo apt-get install java
+sudo apt-get install default-jre
+sudo apt-get install php7.0 apache2 
+sudo apt-get install libapache2-mod-php7.0
+sudo apt-get install sshfs
+sudo apt-get install autofs
+sudo apt-get install gimp
+sudo apt-get install vlc
+sudo apt-get install audacity
+sudo apt-get install mixxx
+extremetuxracer
+cairo-clock lancement au demarrage
+
+
+ajouter group fuse ajout user ->fuse
+ssh-keygen -t rsa
+copier .pub genereee sur serveur
+sshfs#root@91.134.134.153:/                /media/chip/ovh-web          fuse            port=22,user,allow_other,noatime,_netdev     0 0
+
+bashrc color
+alias cl='setxkbmap us'
+
+unity gnome
