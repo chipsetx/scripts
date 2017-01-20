@@ -22,5 +22,7 @@ sshfs#root@91.134.134.153:/                /media/chip/ovh-web          fuse    
 
 bashrc color
 alias cl='setxkbmap us'
+alias del_spaces='for file in * ; do mv -T "$file" ${file// /_};done'
+alias avconv_all='for f in *; do avconv -i $f $f.mp3 ;done'
 
 unity gnome
