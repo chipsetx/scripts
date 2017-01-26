@@ -1,0 +1,12 @@
+while sleep 1; do echo "Hi"; done\\
+*/5 * * * * /home/ramesh/backup.sh\\
+crontab -e \\
+AVCONV peut être utilisé pour découper une vidéo.\\
+-ss indique le début séquence à extraire, en secondes ou  HH:MM:SS)\\
+-t indique la durée en secondes ou HH:MM:SS\\
+-vcodec copy -acodec copy indiquent que l'on conserve les mêmes codec vidéo et audio\\
+exemples :\\
+avconv -ss 0 -i source.m4v -t 100 -vcodec copy -acodec copy part1.m4v\\
+avconv -ss 100 -i source.m4v -t 100 -vcodec copy -acodec copy part2.m4v\\
+avconv -ss 200 -i source.m4v -t 100 -vcodec copy -acodec copy part3.m4v\\
+avconv -ss 300 -i source.m4v -t 100 -vcodec copy -acodec copy part4.m4v\\
