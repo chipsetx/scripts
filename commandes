@@ -10,3 +10,8 @@ avconv -ss 0 -i source.m4v -t 100 -vcodec copy -acodec copy part1.m4v\\
 avconv -ss 100 -i source.m4v -t 100 -vcodec copy -acodec copy part2.m4v\\
 avconv -ss 200 -i source.m4v -t 100 -vcodec copy -acodec copy part3.m4v\\
 avconv -ss 300 -i source.m4v -t 100 -vcodec copy -acodec copy part4.m4v\\
+
+dd if=/dev/sda whatever of=/mnt/mybackup.ddimg
+To restore:
+dd if=/mnt/mybackup.ddimg of=/dev/sd wharever
+
