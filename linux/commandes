@@ -1,3 +1,6 @@
+
+scp toto.txt  cedric@192.168.10.15:/home/cedric/doc
+scp cedric@192.168.10.15:./toto.txt ./
 while sleep 1; do echo "Hi"; done\\
 read line do echo -e "$line\n" done < file.txt\\
 */5 * * * * /home/ramesh/backup.sh\\
