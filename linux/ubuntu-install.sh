@@ -49,3 +49,6 @@ dconf write /org/compiz/profiles/unity/plugins/unityshell/icon-size 25
 
 echo "unity gnome ajouter apps backup"
 gsettings set com.canonical.Unity.Launcher favorites "['application://gnome-screenshot.desktop', 'application://gimp.desktop', 'application://openshot.desktop', 'application://xchat.desktop', 'application://firefox.desktop', 'application://nautilus.desktop', 'application://gedit.desktop', 'application://terminator.desktop', 'application://vlc.desktop', 'application://ubuntu-software-center.desktop', 'application://transmission-gtk.desktop', 'application://circuit.desktop', 'application://libreoffice-writer.desktop', 'application://script.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']"\\
+
+alsamixer -D equal
+
