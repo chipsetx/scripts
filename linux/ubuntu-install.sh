@@ -17,6 +17,8 @@ cd circuit/
 wget www.falstad.com/circuit-java/circuit.zip
 unzip circuit.zip
 
+sudo apt-get install -y xchat
+
 #------- multimedia -----
 sudo apt-get install -y openshot
 sudo apt-get install -y gimp
