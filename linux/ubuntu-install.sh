@@ -16,7 +16,7 @@ mkdir circuit
 cd circuit/
 wget www.falstad.com/circuit-java/circuit.zip
 unzip circuit.zip
-
+equalizer
 sudo apt-get install -y xchat
 
 #------- multimedia -----
