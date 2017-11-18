@@ -1,0 +1,6 @@
+<script>
+var node = document.createElement("LI");
+    node.setAttribute("id", "tfd1");
+    document.getElementById("tfd").appendChild(node);
+    document.getElementById("tfd1").innerHTML = "new HTML";
+</script>
