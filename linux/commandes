@@ -19,3 +19,21 @@ dd if=/dev/sda whatever of=/mnt/mybackup.ddimg
 To restore:
 dd if=/mnt/mybackup.ddimg of=/dev/sd wharever
 
+ffmpeg -i output.avi -f mpegts udp://127.0.0.1:8888
+
+
+avconv -f x11grab -r 25 -s 1920x1080 -i :0.0 -vcodec libx264 -threads 4 output.avi
+
+
+ffmpeg -f x11grab udp://127.0.0.1:8888
+
+
+ffmpeg -f x11grab -s 1920x1080 -r 25 -i :0.0 screencast.mp4
+
+
+ffmpeg -f x11grab -s 1920x1080 -r 25 -i :0.0 -f mpegts udp://127.0.0.1:8888
+
+
+
+udp://@127.0.0.1:8888
+
